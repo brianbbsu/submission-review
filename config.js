@@ -1,16 +1,19 @@
 window.CONFIG = {
   // dataFileName: 'demo-submission.html',
   fields: [
-    { name: '投稿時間', label: '投稿時間'},
-    { name: '投稿者', label: '投稿者'},
-    { name: '類型', label: '類型'},
-    { name: '主題', label: '主題'},
-    { name: '摘要', label: '摘要'},
-    { name: '大綱', label: '大綱'},
-    { name: '目標受眾', label: '目標受眾'},
-    { name: '詳細說明', label: '詳細說明'},
-    { name: '關鍵字', label: '關鍵字'},
-    { name: '附件連結', label: '附件連結', isURL: true}
+    { name: 'id', label: 'ID'},
+    { name: 'mail', label: 'Email'},
+    null,
+    { name: 'name', label: 'Name'},
+    null,
+    { name: 'gender', label: 'Gender'},
+    { name: 'school', label: 'School'},
+    { name: 'grade', label: 'Grade'},
+    { name: 'codeage', label: 'Code Age'},
+    { name: 'contestage', label: 'Contest Age'},
+    { name: 'award', label: 'Awards'},
+    { name: 'ojid', label: 'OJ ID'},
+    { name: 'motivation', label: 'Motivation'}
   ],
   skipRows: 3
 }
